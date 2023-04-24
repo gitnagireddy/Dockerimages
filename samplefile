@@ -1,0 +1,6 @@
+FROM ubuntu
+WORKDIR /tmp
+RUN echo "Hi Nagi Good Morning" > /tmp/nagifile
+ENV myname Nagireddy 
+COPY linuxfile /etc
+ADD devops.tar.gz /home/
